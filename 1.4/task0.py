@@ -1,8 +1,8 @@
-greeting = "Hello"
-name = "World"
-print(type(name))
-print(f"{greeting} {name}")
-x, y, z = 4, 9, 13
-print(x, y, z)
-print(sum([x, y, z]))
-print(float(x))
+principle = 1000
+rate = 0.05
+times_compounded = 4
+years = 10
+
+amount = principle * (1 + rate / times_compounded) ** (times_compounded * years)
+
+print(f"Amount after {years} years: ${amount:.2f}")
