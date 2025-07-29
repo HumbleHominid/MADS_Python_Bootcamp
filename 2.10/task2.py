@@ -2,7 +2,7 @@ import os
 
 import numpy as np
 
-FILEPATH = "data/2.10company_data.csv"
+FILEPATH = "data/company_data.csv"
 
 raw_data = np.loadtxt(
     os.path.join(os.path.dirname(os.path.abspath(__file__)), FILEPATH),
